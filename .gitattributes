@@ -1,0 +1,3 @@
+# Preserve the verified Skill package bytes on every platform.
+exam-score-maximizer/** -text
+releases/*.zip binary

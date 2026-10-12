@@ -1,0 +1,77 @@
+{
+  "skill_name": "exam-score-maximizer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我还有 36 小时考《计算机网络》，手里有老师划重点、两套历年卷和一份很乱的课堂笔记。基础比较差，最多只能学习 6 小时。请先按证据判断优先级，再给我一份能直接执行的冲刺计划，并把每个任务写出完成标准。",
+      "expected_output": "按教师证据和历年卷建立考试地图，标注确认与预测内容，使用有限时间做 A/B 优先级和 6 小时计划；计划包含任务、分钟数、来源、完成标准、错题复测和最后一天清单。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "根据下面的考试范围和错题记录，帮我生成 12 张一题一知识点的闪卡，再出 8 道带解析的选择题。每题都要标注来源、难度，并告诉我哪些题应该复测：范围是操作系统进程、死锁、分页；我错题主要是把安全序列和死锁条件混淆。",
+      "expected_output": "输出可复用的闪卡和测验结构，题目一题一知识点，包含来源、难度、答案和解析；针对安全序列与死锁条件的混淆安排 retest 或 revamp。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我已经有一份结构化的考前计划 JSON，想生成一个 study-report.html，能在手机和电脑打开，展示剩余时间、A 类考点、今日任务、薄弱点热力图、错题原因和带来源的冲刺卡片。不要联网；如果 HTML 生成失败就给我同样内容的 Markdown。",
+      "expected_output": "生成或说明如何生成自包含、无外部请求的 HTML 报告，内容来自输入 JSON；包含移动端和打印样式，失败时提供 Markdown 降级。",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "I have a networking exam in 36 hours and can only study for 6 hours. I have the professor's highlights, two past papers, and messy notes. Build a prioritized exam sprint plan with evidence labels, time budgets, and completion criteria.",
+      "expected_output": "Use the supplied evidence to build an exam map and a six-hour executable plan; distinguish confirmed and inferred items, cite sources, and include review or retest tasks without inventing frequencies or scores.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Generate 12 one-atom flashcards and an 8-question quiz from my operating-systems error log. Focus on confusing safe sequences with deadlock conditions, show sources, and mark which items need retesting.",
+      "expected_output": "Return reusable flashcards and explained quiz questions with source and difficulty fields; route wrong answers to revamp and correct answers with weak reasoning to retest.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "我把 study-state.json 放在任务工作区。请接着上周的复习安排，依据最新测验结果调整本周任务，不要重新建立整张考试地图。",
+      "expected_output": "先读取并复用已有 topic/card/question ID，只增量更新掌握度、错因和复习队列；保留未受影响记录，输出本周任务和复测安排。",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "My study-state.json is in the workspace. Continue from it: reschedule this week's review based on my latest quiz attempts, don't rebuild the exam map.",
+      "expected_output": "Read the existing state, preserve IDs and source evidence, update only affected mastery/error/review records, and schedule retest or revamp for failed atoms.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "老师这周说考试范围是第 1、2、4 章，但上周群里强调第 3 章也会考。我该按哪个复习？",
+      "expected_output": "列出两条来源及日期或原话，标注冲突和证据等级，不静默裁决；给出确认前的保守安排并请求用户确认最新口径。",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "考试还剩 48 小时，我只有 5 小时真正能学习。请只安排最小可行冲刺闭环。",
+      "expected_output": "总量不超过 300 分钟，优先已确认范围中的大题方法、公式条件、常错点和一份有预算的小测；明确‘必须记住/必须会做/容易丢分’，不扩展大量课外内容。",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "根据已确认的历年卷结构生成一套不重复的模拟卷，保持题型、题量和总分一致。",
+      "expected_output": "复用已确认卷型与分值约束，改变数字或情境并标注为变式；逐题给出答案、解析、考点和来源，检查总分，且不引入课程外内容。",
+      "files": []
+    },
+    {
+      "id": 11,
+      "prompt": "我在离线报告里做完了几道题，帮我把‘复测结果：q1 对；q2 错（条件混淆）；q3 猜对’接回错题和复习计划。",
+      "expected_output": "按题号回查原测验；q1 仅作为候选 graduate，q2 进入 revamp 并记录条件混淆，q3 进入 retest；无法匹配的题号先追问，不凭简写直接宣称掌握。",
+      "files": []
+    },
+    {
+      "id": 12,
+      "prompt": "我在手机上打开 study-report.html，想快速跳到今日任务、薄弱点和闭卷测验，不要依赖脚本或联网。",
+      "expected_output": "报告提供可键盘访问的目录锚点，链接指向对应章节；无 JavaScript 时仍可跳转，页面不引入外部资源。",
+      "files": []
+    }
+  ]
+}
