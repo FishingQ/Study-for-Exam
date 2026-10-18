@@ -1,0 +1,194 @@
+{
+  "snapshot": "2026-10-18",
+  "status": "review-only; video and rights checks pending",
+  "originalSubmissionFiles": 28,
+  "originalArchiveFiles": 2,
+  "files": [
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/队长信息.txt",
+      "bytes": 248,
+      "sha256": "bbc90570b2548c1020662f5036f01b6e1d53ac0e7924c739cedfb99928a99589",
+      "gitBlobSha1": "fc93cf7b268d4aa088293f74d1a14fcb906b8dea"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/提交状态-待补演示视频.txt",
+      "bytes": 1687,
+      "sha256": "179791d3f6284be794ac267c45a61784a844f50128d1c26f2efaa5b47ca0ada3",
+      "gitBlobSha1": "1ecbd34725d84b886c534f2c8ffb9a11344a6260"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Checks/提交核对清单.md",
+      "bytes": 1931,
+      "sha256": "01d1be6717bb32494ac78c13636aae804e28288e6adab612ff164a493d88bfe8",
+      "gitBlobSha1": "f6c7faa32d3284c3825d4dc58713b3d5a5be70f3"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Checks/docx-checks.json",
+      "bytes": 2842,
+      "sha256": "adeb7ec06f61ddbf9b3e9f9ac4f3af83b902c2f1d621952a8e84c3197f6a5378",
+      "gitBlobSha1": "b602451b46a7ef8a674c2d3a1ecf92207718c3cb"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Checks/integrity-summary.json",
+      "bytes": 478,
+      "sha256": "1e71e7f18893ed1625f4362350ce6dea3e44b9db263b05df168eef3d0de1cefe",
+      "gitBlobSha1": "83199b516cb77b816b0659503e832c2f0b94e583"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Checks/offline-checks.json",
+      "bytes": 4011,
+      "sha256": "06cec2ba08e9d3d778d5f077495ed5d1f5ba7341def7ebeca8b883c36972e1e9",
+      "gitBlobSha1": "67c077ed41c37b3e20eea9477106c439376221a9"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Checks/release-entry.diff",
+      "bytes": 2443,
+      "sha256": "cc0e65e561b876e612f3c23fea1c01339315156b524b0514dd356b74090c2b13",
+      "gitBlobSha1": "791fad368850fc9c3ccaaa0fc56f4ce71c9d33d9"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Checks/SHA256SUMS.txt",
+      "bytes": 3375,
+      "sha256": "a1a8b99f2da6928cf49ad56361473d70b9d93392b2b0e0338a75644347d782c5",
+      "gitBlobSha1": "7d7597a8367f22810e8da47b30e7ccf1203599ee"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Checks/version-provenance.json",
+      "bytes": 3201,
+      "sha256": "2adcf6809ba0d4709ac03b2c088dc501f5873964405cc5d065d5967dcfa87766",
+      "gitBlobSha1": "68b75432cc08ca8de827f84eb61121abc54a81ea"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Documents/考前提分助手-学习伙伴版-作品说明书.docx",
+      "bytes": 49346,
+      "sha256": "fe30b1ce952a65f9d67ea2cc0b6ccee5a49b6f7650215907fe11385986a655c1",
+      "gitBlobSha1": "f847c8175c6c61667b5124d70c0bf72a4f163582"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Documents/原创性与许可审查.md",
+      "bytes": 5325,
+      "sha256": "fced03c852a4b6463b402b8d18657268b16793e91b2072f5570e3714839507f5",
+      "gitBlobSha1": "c526309d8af24e8fad586a4d5a94e463b87a9490"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/evals.json",
+      "bytes": 6154,
+      "sha256": "fb1006c9a7dee731f3dd002e3498f6f4809839c090c87b8c93b388d6e69c5c60",
+      "gitBlobSha1": "bb673763d8fe7bb519b2410bebb51518e3058f84"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/exam-methods.md",
+      "bytes": 3926,
+      "sha256": "9f70ed9e6f824d342a8cbb18e2e0b73ed582ba017d4c059e23a2424c9d3ba8f0",
+      "gitBlobSha1": "470a757b2a654c69299149e9b2632fd6f2f97527"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/examples/expected-plan.md",
+      "bytes": 702,
+      "sha256": "2d90a01a8eb4435892edae74e4d9a7b6108cdaee2e718d189fed1b5a473433f4",
+      "gitBlobSha1": "eeceac391db3e5d6eac83bed4240497d8648b8a5"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/examples/expected-report.md",
+      "bytes": 495,
+      "sha256": "d5f781ea11928ca6134fb22c10dca680afec00f56c4e3517755e58f94071e413",
+      "gitBlobSha1": "2baaacd74feb02ea3dd1a7fce2868b5c800eecf6"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/examples/generated-study-report.html",
+      "bytes": 12031,
+      "sha256": "289c839dc81c2535678d10d2ef76a774918a8670c4582ba7a847092493b39fe4",
+      "gitBlobSha1": "18b83dfa7f9179634a2e04f09e2ecfc0f1a16ec1"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/examples/generated-study-report.md",
+      "bytes": 1521,
+      "sha256": "e75d621ae575efa05ee236f6e9687d0afa617e452f0892871be5ba18318d3117",
+      "gitBlobSha1": "fbfd0a6ddb9aa4d5a5f7a5e076980a466d7120f3"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/examples/report-input.json",
+      "bytes": 1748,
+      "sha256": "67e05046b5043c672fa4b7d7f2b92f22ecef9a268e163b6b6e64227f5fff0112",
+      "gitBlobSha1": "1342cda5108939db617cfc9fe0daebe3eed41bd6"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/hermione-persona.md",
+      "bytes": 7363,
+      "sha256": "f95e4777c9be458fcc7ab1ae40112799f44702910d657c48202ec17c8c5c5409",
+      "gitBlobSha1": "d84da6a598136433cc3c36b61be6a0232af57d14"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/html-report.md",
+      "bytes": 4333,
+      "sha256": "9eb9d629d8d33fc5a0442021f27b503f0f6fd6844c8a5119851cac59e994c9c0",
+      "gitBlobSha1": "0b2f76b49d314daf7bbe6e3f7ef57aca1bc693ee"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/learning-companion-mode-examples.txt",
+      "bytes": 1361,
+      "sha256": "1ec5a7f5e45fece15d357d54889eb6da7191fef7b037cf7edd4debe17f87c987",
+      "gitBlobSha1": "d9bc4db0c6f51f2869891b6ce445344ddb50834e"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/output-contracts.md",
+      "bytes": 7507,
+      "sha256": "2986ea9fb5dbe5397f1e60a33620c38208ca76186609c0d2a5969b0ae603b85e",
+      "gitBlobSha1": "0029e32cebf5075a519b2bc3d0fad2447bb38243"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/planning-and-feedback.md",
+      "bytes": 4296,
+      "sha256": "2551b32413f3625716f8ad22005d40054f9e08bffcdb8e72fbdfe13bfeef3b86",
+      "gitBlobSha1": "43b794012b99089ae93dbe3604bc28291dee5382"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/privacy-and-path-safety.md",
+      "bytes": 2143,
+      "sha256": "90a47070ce9dda1c9a4a13211e00fa177b8463c9a946cb64b6d655b6bef4f4da",
+      "gitBlobSha1": "dbcea4aa8e85c7e881d3f1b97714216b79fe647a"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/references/provenance.md",
+      "bytes": 5398,
+      "sha256": "d78b7f79d880985e4f93b2588eadca599d0888d048ba037472685916e66ee0af",
+      "gitBlobSha1": "3dc8b5f183c0c6260be7f5f9e0f3bc62819ce2ec"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/scripts/build_study_report.mjs",
+      "bytes": 28558,
+      "sha256": "dd99ceada2acd2e1b7521168bcfcad7785cfc837421b04bf108e9fc99280b317",
+      "gitBlobSha1": "8a148de398d154256e5389f2f33e0a5422aefe0e"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/scripts/tests/report.test.mjs",
+      "bytes": 9748,
+      "sha256": "b7358fbcee6ce69588353c4ec069eb8d46c6ddd5cfcd2ce0708e332c556644d9",
+      "gitBlobSha1": "f652df54271fd88dab0b49c8015fdd0ec793a282"
+    },
+    {
+      "path": "competition-review/2026-10-18/Competition-Submission/Skill/exam-score-maximizer-companion/SKILL.md",
+      "bytes": 13311,
+      "sha256": "e39e7c262429fd65c7f5b2461eb59f031a9f4448a8e7acedebf0ec97a8101565",
+      "gitBlobSha1": "e411e0b41480d1a7281a1bc40aee03d9bbc187cd"
+    },
+    {
+      "path": "competition-review/2026-10-18/待提交/会赢的+学习3g荣光，邮兵义不容辞.zip",
+      "bytes": 114834,
+      "sha256": "f6f3895da4f11887fa8804b151d286c564eaf92e20a1f1055d38e7e1e8e7eb84",
+      "gitBlobSha1": "59adb5a206822dffeae962942d3f273865cf418d"
+    },
+    {
+      "path": "competition-review/2026-10-18/待提交/会赢的+学习3g荣光，邮兵义不容辞.zip.sha256",
+      "bytes": 116,
+      "sha256": "f74f84d1d8b09b0af999700d97b7909401ce2af538861a0011929d513a76ead7",
+      "gitBlobSha1": "f4c70afedde4bcd25043323d19850642a7af5362"
+    },
+    {
+      "path": "competition-review/2026-10-18/README.md",
+      "bytes": 2305,
+      "sha256": "5dca2903081c33876b6f6784ef0d45c99ee1e5ade234a1848a4f2d9c520970aa",
+      "gitBlobSha1": "400a0d860c61a4e0654935de2810d45a4c69afd4"
+    }
+  ]
+}

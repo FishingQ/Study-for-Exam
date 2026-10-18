@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-17",
+  "status": "OFFLINE_CHECKS_PASS_NOT_RELEASE_CLEARANCE",
+  "modelCalls": 0,
+  "behavioralTestsRunThisTask": 0,
+  "checks": [
+    {
+      "name": "no_office_lock_artifacts",
+      "pass": true,
+      "detail": "Office lock artifacts kept outside the submission"
+    },
+    {
+      "name": "runtime_file_count",
+      "pass": true,
+      "detail": 17
+    },
+    {
+      "name": "frontmatter_delimiters",
+      "pass": true,
+      "detail": "YAML frontmatter present; scalar metadata inspected"
+    },
+    {
+      "name": "name_matches_folder",
+      "pass": true,
+      "detail": "exact name"
+    },
+    {
+      "name": "frontmatter_description",
+      "pass": true,
+      "detail": "present"
+    },
+    {
+      "name": "frontmatter_name_cn",
+      "pass": true,
+      "detail": "present"
+    },
+    {
+      "name": "frontmatter_description_cn",
+      "pass": true,
+      "detail": "present"
+    },
+    {
+      "name": "frontmatter_compatibility",
+      "pass": true,
+      "detail": "present"
+    },
+    {
+      "name": "teaching_body_unchanged",
+      "pass": true,
+      "detail": "Entry body byte-equivalent to installed snapshot"
+    },
+    {
+      "name": "reference_1",
+      "pass": true,
+      "detail": "references\\exam-methods.md"
+    },
+    {
+      "name": "reference_2",
+      "pass": true,
+      "detail": "references\\planning-and-feedback.md"
+    },
+    {
+      "name": "reference_3",
+      "pass": true,
+      "detail": "references\\output-contracts.md"
+    },
+    {
+      "name": "reference_4",
+      "pass": true,
+      "detail": "references\\html-report.md"
+    },
+    {
+      "name": "reference_5",
+      "pass": true,
+      "detail": "references\\privacy-and-path-safety.md"
+    },
+    {
+      "name": "reference_6",
+      "pass": true,
+      "detail": "references\\provenance.md"
+    },
+    {
+      "name": "reference_7",
+      "pass": true,
+      "detail": "references\\hermione-persona.md"
+    },
+    {
+      "name": "reference_8",
+      "pass": true,
+      "detail": "references\\output-contracts.md"
+    },
+    {
+      "name": "reference_9",
+      "pass": true,
+      "detail": "references\\learning-companion-mode-examples.txt"
+    },
+    {
+      "name": "reference_10",
+      "pass": true,
+      "detail": "SKILL.md"
+    },
+    {
+      "name": "reference_11",
+      "pass": true,
+      "detail": "references\\provenance.md"
+    },
+    {
+      "name": "JSON_evals.json",
+      "pass": true,
+      "detail": "parsed"
+    },
+    {
+      "name": "JSON_report-input.json",
+      "pass": true,
+      "detail": "parsed"
+    },
+    {
+      "name": "JS_build_study_report.mjs",
+      "pass": true,
+      "detail": "syntax passed"
+    },
+    {
+      "name": "JS_report.test.mjs",
+      "pass": true,
+      "detail": "syntax passed"
+    },
+    {
+      "name": "no_runtime_network",
+      "pass": true,
+      "detail": "No network call/URL in report builder and generated HTML"
+    },
+    {
+      "name": "no_bundled_state_or_secrets",
+      "pass": true,
+      "detail": "No real study state, credentials or bundled dependencies"
+    },
+    {
+      "name": "contact_complete",
+      "pass": true,
+      "detail": "Required contact fields present; number suppressed"
+    },
+    {
+      "name": "phone_only_in_contact_text",
+      "pass": true,
+      "detail": "Exact captain number absent from all other text artifacts; DOCX checked separately"
+    },
+    {
+      "name": "protected_files_unchanged",
+      "pass": true,
+      "detail": "6006 existing files match this-task baseline"
+    },
+    {
+      "name": "frozen_persona",
+      "pass": true,
+      "detail": "unchanged"
+    },
+    {
+      "name": "sealed_F1_examples",
+      "pass": true,
+      "detail": "unchanged"
+    }
+  ],
+  "limits": [
+    "Formal renamed ID not registered in this task",
+    "Stage6/7 historical results confirmed by project owner, not re-executed",
+    "Literary-character and upstream ownership clearance pending",
+    "Video missing",
+    "DOCX layout result recorded separately"
+  ]
+}

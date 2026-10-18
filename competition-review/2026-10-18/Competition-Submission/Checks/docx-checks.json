@@ -1,0 +1,96 @@
+{
+  "status": "DOCX_STRUCTURE_PASS_VISUAL_REVIEW_PENDING",
+  "checks": [
+    {
+      "name": "DOCX_integrity",
+      "pass_": true,
+      "detail": "ZIP members readable"
+    },
+    {
+      "name": "OOXML_parse",
+      "pass_": true,
+      "detail": "18 XML/rels parts parsed"
+    },
+    {
+      "name": "phone_excluded",
+      "pass_": true,
+      "detail": "Captain contact number absent from all DOCX XML parts"
+    },
+    {
+      "name": "no_macros_or_embedded_payload",
+      "pass_": true,
+      "detail": "No macros/embedded packages"
+    },
+    {
+      "name": "no_external_parts",
+      "pass_": true,
+      "detail": "No external OOXML relationships"
+    },
+    {
+      "name": "native_page_field",
+      "pass_": true,
+      "detail": "Native PAGE field present"
+    },
+    {
+      "name": "official_title",
+      "pass_": true,
+      "detail": "Exact user-provided work title"
+    },
+    {
+      "name": "eight_chapters",
+      "pass_": true,
+      "detail": [
+        "第一章 作品简介",
+        "第二章 设计思路",
+        "第三章 功能模块",
+        "第四章 技术实现与设计特色",
+        "第五章 使用说明",
+        "第六章 测试与效果",
+        "第七章 应用前景与扩展方向",
+        "第八章 原创性、版权与来源声明"
+      ]
+    },
+    {
+      "name": "test_scopes",
+      "pass_": true,
+      "detail": "Owner-confirmed results and limitations retained"
+    },
+    {
+      "name": "no_TOC_placeholder",
+      "pass_": true,
+      "detail": "Readable cached chapter list in native TOC; update on open requested"
+    },
+    {
+      "name": "table_1_width",
+      "pass_": true,
+      "detail": "Declared grid fits usable page width; no claim of visual pagination"
+    },
+    {
+      "name": "table_2_width",
+      "pass_": true,
+      "detail": "Declared grid fits usable page width; no claim of visual pagination"
+    },
+    {
+      "name": "table_3_width",
+      "pass_": true,
+      "detail": "Declared grid fits usable page width; no claim of visual pagination"
+    },
+    {
+      "name": "table_4_width",
+      "pass_": true,
+      "detail": "Declared grid fits usable page width; no claim of visual pagination"
+    },
+    {
+      "name": "table_5_width",
+      "pass_": true,
+      "detail": "Declared grid fits usable page width; no claim of visual pagination"
+    },
+    {
+      "name": "table_6_width",
+      "pass_": true,
+      "detail": "Declared grid fits usable page width; no claim of visual pagination"
+    }
+  ],
+  "visual_review": "NOT_COMPLETED: native Office automation rejected calls; WPS automation did not obtain a reliable report target",
+  "required_action": "Open in WPS/Word, update TOC/page fields and inspect every page before release."
+}
