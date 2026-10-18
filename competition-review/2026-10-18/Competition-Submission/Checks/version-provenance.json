@@ -1,0 +1,85 @@
+{
+  "generated": "2026-10-17",
+  "source": "State Boundary V2; installed entry snapshot",
+  "installedEntrySHA256": "B34A2047FA441B9DC771232D8C3C8145FB7EB5457B1B25054CCB8141EDFB5D9B",
+  "formalSkillName": "exam-score-maximizer-companion",
+  "hostRegistration": "NOT_PERFORMED_FOR_RENAMED_COPY",
+  "runtimeFiles": 17,
+  "changed": [
+    "SKILL.md: name/name_cn and two display-description labels only",
+    "references/provenance.md: review-copy attribution/status appendix only"
+  ],
+  "unchangedRuntimeFiles": 15,
+  "personaSHA256": "F95E4777C9BE458FCC7AB1AE40112799F44702910D657C48202EC17C8C5C5409",
+  "f1ExamplesSHA256": "1EC5A7F5E45FECE15D357D54889EB6DA7191FEF7B037CF7EDD4DEBE17F87C987",
+  "sourceManifest": [
+    {
+      "file": "SKILL.md",
+      "sha256": "B68872167E7F1998DE8DDD01B83109928196B200A1D70E0EB1F7725A1FECD0F5"
+    },
+    {
+      "file": "references/evals.json",
+      "sha256": "FB1006C9A7DEE731F3DD002E3498F6F4809839C090C87B8C93B388D6E69C5C60"
+    },
+    {
+      "file": "references/exam-methods.md",
+      "sha256": "9F70ED9E6F824D342A8CBB18E2E0B73ED582BA017D4C059E23A2424C9D3BA8F0"
+    },
+    {
+      "file": "references/examples/expected-plan.md",
+      "sha256": "2D90A01A8EB4435892EDAE74E4D9A7B6108CDAEE2E718D189FED1B5A473433F4"
+    },
+    {
+      "file": "references/examples/expected-report.md",
+      "sha256": "D5F781EA11928CA6134FB22C10DCA680AFEC00F56C4E3517755E58F94071E413"
+    },
+    {
+      "file": "references/examples/generated-study-report.html",
+      "sha256": "289C839DC81C2535678D10D2EF76A774918A8670C4582BA7A847092493B39FE4"
+    },
+    {
+      "file": "references/examples/generated-study-report.md",
+      "sha256": "E75D621AE575EFA05EE236F6E9687D0AFA617E452F0892871BE5BA18318D3117"
+    },
+    {
+      "file": "references/examples/report-input.json",
+      "sha256": "67E05046B5043C672FA4B7D7F2B92F22ECEF9A268E163B6B6E64227F5FFF0112"
+    },
+    {
+      "file": "references/hermione-persona.md",
+      "sha256": "F95E4777C9BE458FCC7AB1AE40112799F44702910D657C48202EC17C8C5C5409"
+    },
+    {
+      "file": "references/html-report.md",
+      "sha256": "9EB9D629D8D33FC5A0442021F27B503F0F6FD6844C8A5119851CAC59E994C9C0"
+    },
+    {
+      "file": "references/learning-companion-mode-examples.txt",
+      "sha256": "1EC5A7F5E45FECE15D357D54889EB6DA7191FEF7B037CF7EDD4DEBE17F87C987"
+    },
+    {
+      "file": "references/output-contracts.md",
+      "sha256": "2986EA9FB5DBE5397F1E60A33620C38208CA76186609C0D2A5969B0AE603B85E"
+    },
+    {
+      "file": "references/planning-and-feedback.md",
+      "sha256": "2551B32413F3625716F8AD22005D40054F9E08BFFCDB8E72FBDFE13BFEEF3B86"
+    },
+    {
+      "file": "references/privacy-and-path-safety.md",
+      "sha256": "90A47070CE9DDA1C9A4A13211E00FA177B8463C9A946CB64B6D655B6BEF4F4DA"
+    },
+    {
+      "file": "references/provenance.md",
+      "sha256": "3F7FE09A168CD8677C7C86590FBCEB526228B0390C3846559363065C2AEB6951"
+    },
+    {
+      "file": "scripts/build_study_report.mjs",
+      "sha256": "DD99CEADA2ACD2E1B7521168BCFCAD7785CFC837421B04BF108E9FC99280B317"
+    },
+    {
+      "file": "scripts/tests/report.test.mjs",
+      "sha256": "B7358FBCEE6CE69588353C4EC069EB8D46C6DDD5CFCD2CE0708E332C556644D9"
+    }
+  ]
+}

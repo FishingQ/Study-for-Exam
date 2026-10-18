@@ -1,0 +1,26 @@
+diff --git "a/D:\\GPT\345\222\214Ddeep seek\345\215\217\344\275\234\\Hermione-Persona-Final\\_build\\installed-SKILL-before.md" "b/D:\\GPT\345\222\214Ddeep seek\345\215\217\344\275\234\\Hermione-Persona-Final\\Competition-Submission\\Skill\\exam-score-maximizer-companion\\SKILL.md"
+index 7a280c0..e411e0b 100644
+--- "a/D:\\GPT\345\222\214Ddeep seek\345\215\217\344\275\234\\Hermione-Persona-Final\\_build\\installed-SKILL-before.md"	
++++ "b/D:\\GPT\345\222\214Ddeep seek\345\215\217\344\275\234\\Hermione-Persona-Final\\Competition-Submission\\Skill\\exam-score-maximizer-companion\\SKILL.md"	
+@@ -1,7 +1,7 @@
+ ---
+-name: exam-score-maximizer-lc-stage6-test
++name: exam-score-maximizer-companion
+ description: >-
+-  学习伙伴实验版：面向大学课程考试，基于教师划重点、课程大纲、笔记、历年卷和作答记录，
++  考前提分助手·学习伙伴版：面向大学课程考试，基于教师划重点、课程大纲、笔记、历年卷和作答记录，
+   在有限学习时间内按预期提分收益安排复习，生成可溯源考试地图、提分计划、
+   初学者解析、结构匹配模拟卷、闪卡、错题变式和冲刺清单。
+   当用户说“基础差怎么复习”“先学什么”“考前冲刺”“错题重练”
+@@ -10,9 +10,9 @@ description: >-
+   也触发本技能。
+   本版含可选的“学习伙伴”陪学人格：默认关闭，只有用户明确表示要开启陪学或搭档式辅导时才启用，普通复习请求保持普通教学模式。
+   不用于通用网页开发、只有文档排版的任务或正在进行的正式考试代答。
+-name_cn: 考前提分助手·学习伙伴实验版
++name_cn: 考前提分助手 · 学习伙伴版
+ description_cn: >-
+-  学习伙伴实验版 · 考前提分助手：基于教师划重点、课程大纲、笔记、历年卷，
++  考前提分助手·学习伙伴版：基于教师划重点、课程大纲、笔记、历年卷，
+   在有限时间内生成考试地图、提分计划、初学者解析、模拟卷、闪卡和离线 HTML 学习报告。
+   陪学人格默认关闭，需用户明确开启。
+ compatibility: "核心流程需要模型和课程资料读取能力；离线报告脚本可选，需要 Node.js 18+；根据 2026-10-12 实机验证记录已覆盖材料盘点、考试地图、状态建立、手写学习包与回流、状态更新全链路，接手人仍需在目标注册环境复现。"
