@@ -1,0 +1,28 @@
+{
+  "title": "计算机网络考前提分报告",
+  "course": "计算机网络",
+  "exam_at": "2026-10-31T09:00:00+08:00",
+  "generated_at": "2026-10-12T10:00:00+08:00",
+  "available_minutes": 180,
+  "priorities": [
+    {"topic": "TCP 可靠传输", "band": "A", "weight": 0.24, "evidence": "confirmed", "source": "老师划重点 p.3"},
+    {"topic": "子网划分计算", "band": "A", "weight": 0.18, "evidence": "high probability", "source": "历年卷 2024 Q4"},
+    {"topic": "HTTP 状态码", "band": "B", "weight": 0.08, "evidence": "supplementary", "source": "课堂笔记 p.8"}
+  ],
+  "today_tasks": [
+    {"topic": "TCP 三次握手与重传条件", "minutes": 35, "done": "闭卷画图并解释每个报文的作用"},
+    {"topic": "子网划分变式题", "minutes": 45, "done": "独立完成 3 题且单位与掩码无误"},
+    {"topic": "错题复测", "minutes": 20, "done": "说明上次错因并完成 2 道改编题"}
+  ],
+  "weaknesses": [
+    {"topic": "子网掩码边界", "score": 0.35, "cause": "条件混淆"},
+    {"topic": "TCP 重传计时器", "score": 0.55, "cause": "概念缺失"}
+  ],
+  "errors": [
+    {"question": "给定 /26 划分主机数", "cause": "单位/边界错误", "fix": "先写网络位和主机位，再检查保留地址"}
+  ],
+  "sprint_cards": [
+    {"question": "TCP 为什么需要确认和重传？", "answer": "确认让发送方知道接收状态，超时或重复确认触发重传；具体条件需结合题目语境。", "source": "老师划重点 p.3"},
+    {"question": "/26 有多少主机位？", "answer": "IPv4 地址 32 位，/26 表示网络位 26 位，剩余 6 位为主机位；可用主机数还要按题目规则扣除保留地址。", "source": "历年卷 2024 Q4"}
+  ]
+}

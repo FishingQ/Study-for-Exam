@@ -1,4 +1,20 @@
-# exam-prep-workflow
+# Study-for-Exam
+
+## 最新交付：考前提分助手 v6
+
+基于原 `exam-prep-workflow` 改进的 TeleAgent Skill，面向基础薄弱、材料零散、时间不足的大学生，帮助在有限时间内安排复习并改善考试表现，不承诺分数或命中率。
+
+- [Skill 入口](exam-score-maximizer/SKILL.md)：本次最新版本；安装或注册时使用整个 `exam-score-maximizer/` 目录。
+- [v6 压缩包](releases/exam-score-maximizer-teleagent-v6.zip)：用于 TeleAgent 导入，不含仓库 README 与交接说明。
+- [交接任务与验证记录](docs/HANDOFF-v6.md)：接手人、复现命令、安全边界和待实机验证项。
+
+v6 包含可溯源考试地图、限时提分计划、初学者讲解、模拟卷、闪卡、错题复测、工作区状态续用，以及离线 HTML 报告、复制作答回流和无脚本目录导航。报告生成器无第三方依赖、无网络调用；可选脚本需要 Node.js 18+。
+
+当前本地工程回归：9/9 自动测试通过，12 条评测提示 JSON 合法；提示集尚不等于已执行的模型评测。v6 的 TeleAgent 注册与浏览器实机体验由接手人继续验证，详见交接文档。
+
+## 原版：exam-prep-workflow
+
+下列说明对应仓库根目录的原版 `SKILL.md` 与 `references/response-patterns.md`，本次保留它们用于溯源；请不要把原版误当成 v6 安装入口，也不要混装两个版本。
 
 把零散课程材料变成可追溯证据的考试地图，再变成练习、反馈和冲刺包——为「基础薄弱也能拿分」优化。
 
